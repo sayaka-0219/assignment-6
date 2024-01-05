@@ -1,7 +1,5 @@
 package com.assignment6.hello;
 
-
-
 public class Hiroshi {
     private String name;
     private  int age;

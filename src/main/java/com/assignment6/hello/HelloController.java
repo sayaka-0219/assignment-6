@@ -13,13 +13,12 @@ public class HelloController {
 
     @PatchMapping("/hello")
     public String patchHello(){
-        return "HELLO WORLD!!!";
+        return "HELLO SAYAKA!!!";
     }
 
     @GetMapping("/hiroshi")
     public Hiroshi getHiroshi() {
         return new Hiroshi("野原ひろし", 35, 180);
     }
-
 
 }
