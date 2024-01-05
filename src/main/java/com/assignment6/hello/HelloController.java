@@ -17,8 +17,8 @@ public class HelloController {
     }
 
     @GetMapping("/hiroshi")
-    public Hiroshi getHiroshi() {
-        return new Hiroshi("野原ひろし", 35, 180);
+    public CrayonShinchanCharacter getHiroshi() {
+        return new CrayonShinchanCharacter("野原ひろし", 35, 180);
     }
 
 }
